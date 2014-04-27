@@ -3,17 +3,19 @@ html {
 }
 
 body {
-	text-align: center;
-	position: fixed;
-	margin: auto;
-	left: 31.2%;
-	top: 5.5%;
+	margin:50px 0px; 
+	text-align:center;
+}
+	
+#links {
+	width:700px;
+	margin:0px auto;
 }
 
 a {
 	font-size: 30pt;
 	text-decoration: none;
-	margin: 0px 12px;
+	margin: 0px 14px;
 	-webkit-transition: color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out; 
 }
@@ -29,5 +31,5 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: #277BB4; 
+  color: #277B91; 
 }
