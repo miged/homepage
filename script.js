@@ -32,7 +32,7 @@ window.onload = function date() {
 
 	// change background colour based on time
 	var elem = document.getElementById("html");
-	if (d.getHours() > 21 && d.getHours() < 7)
+	if (d.getHours() > 21 || d.getHours() < 7)
 		elem.setAttribute("style", "background-color:#BBBBBB;");
 	else
 		elem.setAttribute("style", "background-color:#EEEEEE;");
